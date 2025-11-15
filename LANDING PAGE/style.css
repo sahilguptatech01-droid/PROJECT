@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+   background: linear-gradient(to bottom, #36d1dc, #5b86e5);
+}
+
+h1{
+    display: inline-block;
+    padding-right: 600px;
+    color: rgb(242, 234, 234);
+    font-size: 20px;
+    
+   
+
+}
+
+.navcontainer li {
+    display: inline-block;
+    padding-right: 20px;
+    color: rgb(242, 234, 234);
+}
+
+.in-navbar{
+    border:1px solid white ;
+    padding: 4px 8px;
+}
+
+.navbar{
+    margin: 30px 100px 140px;
+}
+
+.two-unequal-column{
+    margin: 30px 100px 160px;
+    display: flex;
+
+
+}
+
+.main-view{
+    width: 700px;
+    height: 400px;
+    padding:  30px 30px 200px 30px;
+
+}
+
+h2{
+    font-size: 70px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 25px;
+   
+
+}
+
+p{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+    width: 600px;
+    padding: 10px;
+   
+}
+
+.main-view button{
+    background-color: greenyellow;
+    padding:15px 50px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    border-color: greenyellow;
+    
+}
+
+.form-part{
+    background-color: white;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+}
+
+h3{
+    padding:25px 80px 25px;
+    font-size: 25px;
+    font-weight: 200;
+    
+
+}
+
+.form-part input{
+   padding: 5px 2px 5px;
+   margin: 7px 10px;
+   width: 300px;
+   height: 40px;
+   background-color: whitesmoke;
+   border-radius:5px;
+   border-color: whitesmoke;
+   
+}
+
+.form-part button{
+    margin: 9px;
+    padding: 10px 120px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(11, 68, 237);
+  
+}
+
